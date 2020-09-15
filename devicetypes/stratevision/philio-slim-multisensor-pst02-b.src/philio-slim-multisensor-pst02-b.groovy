@@ -4,10 +4,11 @@
 *
 * Change log:
 * 20170828 - 加上敏感度設定的功能與說明
+* 20200915 - Add ocf metadata
 */
 
 metadata {
-    definition (name: "Philio Slim Multisensor PST02-B", namespace: "stratevision", author: "Jack Sun") {
+    definition (name: "Philio Slim Multisensor PST02-B", namespace: "stratevision", author: "Jack Sun", ocfDeviceType: "x.com.st.d.sensor.multifunction") {
         //capability "Contact Sensor"
         capability "Motion Sensor"
         capability "Temperature Measurement"
